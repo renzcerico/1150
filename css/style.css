@@ -89,6 +89,10 @@ nav ul li a {
   justify-content: center;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
