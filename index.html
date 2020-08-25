@@ -19,8 +19,8 @@
       <ul class="right hide-on-med-and-down">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
         <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
 
@@ -103,26 +103,31 @@
   </div>
 
   <div class="container">
-    <div class="section">
-
       <div class="row">
         <div class="col l2 s12"></div>
-        <div class="col l8 s12 center">
-          <h4>Get in Touch</h4>
+        <div class="col l8 s12 center" style="margin: 20px 0px;">
+          <h4 class="font-weight-600">Contact Us</h4>
+          <h6>Got a question? We'd love to hear from you.</h6>
           <form>
-            <input placeholder="Name" id="fullname" type="text" class="validate" required>
-            <input placeholder="Email" id="email" type="email" class="validate" required>
-            <input placeholder="Contact no." id="contactNumber" type="text" class="validate">
-            <textarea id="message" class="materialize-textarea" placeholder="Message" style="height: 120px;"></textarea>        
-            <button class="btn waves-effect waves-light btn-large blue w-100 font-weight-500" type="submit" name="action">Submit
+            <div class="input-field col s12">
+              <input placeholder="Name" id="fullname" type="text" class="validate" required>
+            </div>
+            <div class="input-field col s12">
+              <input placeholder="Email" id="email" type="email" class="validate" required>
+            </div>
+            <div class="input-field col s12">
+              <input placeholder="Contact no." id="contactNumber" type="text" class="validate">
+            </div>
+            <div class="input-field col s12">
+              <textarea id="message" class="materialize-textarea" placeholder="Message" style="height: 120px;"></textarea>        
+            </div>
+            <button class="btn waves-effect waves-light btn-large blue w-100 font-weight-500" type="submit" name="action">Send
               <i class="material-icons right">send</i>
             </button>
           </form>
         </div>
         <div class="col l2 s12"></div>
       </div>
-
-    </div>
   </div>
 
   <footer class="page-footer">
@@ -157,7 +162,8 @@
             <li class="footer-divider"></li>
             <li class="newsletter-list">    
               <div class="input-field">
-                  <input id="newsletterEmail" placeholder="Email" type="email" class="validate" style="background: rgba(255, 255, 255, .2); border-radius: 3px 3px 0 0;">
+                  <!-- background: rgba(255, 255, 255, .2) -->
+                  <input id="newsletterEmail" placeholder="Email" type="email" class="validate" style="border-radius: 3px 3px 0 0;">
                   <a href="#subscribe" title="Subscribe to Newsletter" style="position: absolute; margin-left: -30px;">
                       <i class="material-icons prefix white-text">send</i>
                   </a>
@@ -168,9 +174,9 @@
       </div>
     </div>
 
-    <div class="footer-copyright">
+    <div class="footer-copyright ">
       <div class="container">
-        <div class="row valign-wrapper" style="margin-bottom: 0;">
+        <div class="row" style="margin-bottom: 0;">
           <div class="col l6 s12 left-align">
             <a href="https://www.facebook.com/" target="blank" title="Follow on Facebook">
               <img src="assets/img/facebook.png" class="social-media-icons">
