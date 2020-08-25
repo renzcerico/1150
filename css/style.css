@@ -73,8 +73,8 @@ nav ul li a {
 }
 
 .social-media-icons {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   margin-right: 10px;
   /* padding: 5px; */
   /* z-index: 150 !important; */
@@ -91,6 +91,10 @@ nav ul li a {
 
 .w-100 {
   width: 100%;
+}
+
+.font-weight-500 {
+  font-weight: 500;
 }
 
 @media only screen and (max-width : 992px) {
@@ -118,6 +122,10 @@ nav ul li a {
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+footer.page-footer h5 {
+  font-weight: 600;
 }
 
 footer.page-footer {
