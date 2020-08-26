@@ -153,3 +153,7 @@ footer input {
     color: rgba(255, 255, 255, 0.85);
     border-bottom: 1px solid rgba(163, 162, 160, .9) !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
