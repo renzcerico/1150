@@ -137,7 +137,7 @@ footer.page-footer {
 }
 
 footer.page-footer:after {
-    background: url('../assets/img/1150-logo-white-padded.png')top 0 left 0 repeat, url('../assets/img/1150-logo-white-padded.png')top 122px left 165px repeat;
+    background: url('../assets/img/1150-logo-white-padded-new.png')top 0 left 0 repeat, url('../assets/img/1150-logo-white-padded-new.png')top 184px left 165px repeat;
     content: "";
     position: absolute;
     z-index: -1;
