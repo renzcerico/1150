@@ -18,6 +18,11 @@ p {
   color: #26a69a;
 }
 
+.nav-menu li {
+  width: 110px;
+  text-align: center;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -38,7 +43,8 @@ p {
   height: 35px;
 }
 
-.company-description {
+.company-description,
+.justify-content {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -96,6 +102,14 @@ nav ul li a {
 
 .font-weight-600 {
   font-weight: 600;
+}
+
+.services-header {
+  height: 60px;
+}
+
+.opacity-6 {
+  opacity: .6;
 }
 
 @media only screen and (max-width : 992px) {

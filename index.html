@@ -18,7 +18,7 @@
       <a id="logo-container" href="#" class="brand-logo">
         <img src="assets/img/1150-logo.png" alt="1150 Technologies" class="official-logo">
       </a>
-      <ul class="right hide-on-med-and-down">
+      <ul class="right hide-on-med-and-down nav-menu">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">About</a></li>
@@ -64,9 +64,11 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Web Design and Development</h5>
+            <div class="services-header">
+              <h5 class="center">Web Design and Development</h5>
+            </div>
 
-            <p class="light text-center">
+            <p class="light text-center justify-content">
               Missing presence on the web is like giving up most of your profit. Modern businesses generate profit online, so why not join and dominate the competition?
             </p>
           </div>
@@ -75,9 +77,11 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">Web / Mobile / Desktop Application</h5>
+            <div class="services-header">
+              <h5 class="center">Web / Mobile / Desktop Application</h5>
+            </div>
 
-            <p class="light">
+            <p class="light justify-content">
               Automation means faster and cheaper transactions. We develop modern apps that help businesses automate processes so they can focus on what they do best.              
             </p>
           </div>
@@ -86,9 +90,11 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Digital Marketing</h5>
+            <div class="services-header">
+              <h5 class="center">Digital Marketing</h5>
+            </div>
 
-            <p class="light">
+            <p class="light justify-content">
               After your app is developed, what's next? We help you plan and design effective marketing strategies
             </p>
           </div>
@@ -110,36 +116,44 @@
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <section class="container" id="contactUs">
-      <div class="row">
+  <div class="container" id="contactUs">
+      <div class="row" style="margin-top: 20px;">
         <div class="col l2 s12"></div>
-        <div class="col l8 s12 center" style="margin: 20px 0px;">
+        <div class="col l8 s12 center card" style="margin: 20px 0px; padding: 20px 40px;">
           <h4 class="font-weight-600">Contact Us</h4>
-          <h6>Got a question? We'd love to hear from you.</h6>
-          <form>            
-            <div class="input-field col s12">
-              <input placeholder="" id="fullname" type="text" class="validate" required>
-              <label for="fullname">Full name</label>
+          <h6 class="opacity-6">Got a question? We'd love to hear from you.</h6>
+          <form>        
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="" id="fullname" type="text" class="validate" required>
+                <label for="fullname">Full name</label>
+              </div>
+            </div>  
+            <div class="row">  
+              <div class="input-field col s12">
+                <input placeholder="" id="email" type="email" class="validate" required>
+                <label for="email">Email</label>
+              </div>
+            </div>  
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="" id="contactNumber" type="text" class="validate">
+                <label for="contactNumber">Contact no.</label>
+              </div>
             </div>
-            <div class="input-field col s12">
-              <input placeholder="" id="email" type="email" class="validate" required>
-              <label for="email">Email</label>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="message" placeholder="" style="height: 120px;" class="materialize-textarea"></textarea>   
+                <label for="message">Message</label>
+              </div>
             </div>
-            <div class="input-field col s12">
-              <input placeholder="" id="contactNumber" type="text" class="validate">
-              <label for="fullname">Contact no.</label>
-            </div>
-            <div class="input-field col s12">
-              <textarea id="message" class="materialize-textarea" placeholder="" style="height: 120px;"></textarea>   
-              <label for="message">Message</label>
-            </div>
-            <button class="btn waves-effect waves-light btn-large blue w-100 font-weight-500" type="submit" name="action" style="font-size: 20px;">Send
+            <button class="btn waves-effect waves-light btn-large blue w-100 font-weight-500" type="submit" name="action" style="font-size: 20px; margin-bottom: 21px;">Send
               <i class="material-icons right">send</i>
             </button>
           </form>
         </div>
       </div>
-  </section>
+  </div>
 
   <footer class="page-footer">
     <div class="container">
@@ -169,14 +183,13 @@
             <li>Email: sales@1150technologies.com</li>
           </ul>
 
-          <!-- <br /> -->
           <h5 class="white-text" style="margin-top: 30px;">Newsletter</h5>
           <ul>
             <li class="footer-divider"></li>
             <li class="newsletter-list">    
               <div class="input-field">
-                  <!-- background: rgba(255, 255, 255, .2) -->
-                  <input id="newsletterEmail" placeholder="Email" type="email" class="validate" style="border-radius: 3px 3px 0 0;">
+                  <!-- border-radius: 3px 3px 0 0; background: rgba(255, 255, 255, .2) -->
+                  <input id="newsletterEmail" placeholder="Email" type="email" class="validate">
                   <a href="#subscribe" title="Subscribe to Newsletter" style="position: absolute; margin-left: -30px;">
                       <i class="material-icons prefix white-text">send</i>
                   </a>
@@ -191,13 +204,13 @@
       <div class="container">
         <div class="row" style="margin-bottom: 0;">
           <div class="col l6 s12 left-align">
-            <a href="https://www.facebook.com/" target="blank" title="Follow on Facebook">
+            <a href="https://www.facebook.com/" target="blank" title="Like us on Facebook">
               <img src="assets/img/facebook.png" class="social-media-icons">
             </a>
-            <a href="linkedin.com/" target="blank" title="Follow on LinkedIn">
+            <a href="linkedin.com/" target="blank" title="Follow us on LinkedIn">
               <img src="assets/img/linkedin.png" class="social-media-icons">
             </a>
-            <a href="twitter.com/" target="blank" title="Follow on Twitter">
+            <a href="twitter.com/" target="blank" title="Follow us on Twitter">
               <img src="assets/img/twitter.png" class="social-media-icons">
             </a>
           </div>
