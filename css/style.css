@@ -5,9 +5,17 @@
  *
  * Made By MaterializeCSS.com
  */
+html {
+  scroll-behavior: smooth;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
+}
+
+.brand-logo {
+  display: contents !important;
 }
 
 p {
@@ -16,6 +24,7 @@ p {
 
 .sidenav-trigger {
   color: #26a69a;
+  float: right !important;
 }
 
 .nav-menu li {
@@ -108,28 +117,24 @@ nav ul li a {
   height: 60px;
 }
 
+.services-header h5 {
+  font-weight: 700;
+  color: #424242 !important;
+}
+
+.contact-us-header {
+  color: #424242;
+}
+
+.services-descsription {
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 500;
+  opacity: .85;
+}
+
 .opacity-6 {
   opacity: .6;
-}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-
-  .footer-copyright * {
-    text-align: center !important;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
 }
 
 .icon-block {
@@ -168,6 +173,22 @@ footer input {
     border-bottom: 1px solid rgba(163, 162, 160, .9) !important;
 }
 
-html {
-  scroll-behavior: smooth;
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .footer-copyright * {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
 }
