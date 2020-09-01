@@ -122,8 +122,13 @@ nav ul li a {
   color: #424242 !important;
 }
 
+.services-main,
 .contact-us-header {
   color: #424242;
+}
+
+.services-container {
+  margin-bottom: -41px;
 }
 
 .services-descsription {
@@ -135,6 +140,11 @@ nav ul li a {
 
 .opacity-6 {
   opacity: .6;
+}
+
+.porfolio-header {
+  color: #424242;
+  font-weight: 600;
 }
 
 .icon-block {
