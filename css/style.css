@@ -123,6 +123,7 @@ nav ul li a {
 }
 
 .services-main,
+.about-header,
 .contact-us-header {
   color: #424242;
 }
@@ -131,7 +132,8 @@ nav ul li a {
   margin-bottom: -41px;
 }
 
-.services-descsription {
+.services-descsription,
+.about-description {
   text-align: justify;
   text-justify: inter-word;
   font-weight: 500;
