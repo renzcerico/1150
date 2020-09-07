@@ -33,7 +33,8 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  /* min-height: 380px; */
+  min-height: 430px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -181,7 +182,8 @@ footer.page-footer:after {
 }
 
 #aboutUs {
-  background-image: url('../abt-30.jpg');
+  background-image: url('../abt-50.jpg');
+  background-size: cover;
 }
 
 footer input {
