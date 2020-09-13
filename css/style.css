@@ -191,6 +191,25 @@ footer input {
     border-bottom: 1px solid rgba(163, 162, 160, .9) !important;
 }
 
+span.footer-soc-med {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+}
+span.footer-soc-med img{
+ display: block;
+ margin: auto;
+ width: 14px;
+ height: 14px;
+}
+
+/* .footer-copyright > .container > .row > div {
+  height: 30px;
+} */
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
