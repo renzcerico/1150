@@ -206,6 +206,13 @@ span.footer-soc-med img{
  height: 14px;
 }
 
+.card-content p {
+  max-width: 450px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* .footer-copyright > .container > .row > div {
   height: 30px;
 } */
