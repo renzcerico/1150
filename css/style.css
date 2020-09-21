@@ -141,6 +141,10 @@ nav ul li a {
   opacity: .85;
 }
 
+.about-description {
+  opacity: 1;
+}
+
 .opacity-6 {
   opacity: .6;
 }
