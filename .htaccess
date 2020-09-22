@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]{3}$
+RewriteRule ^(.*)$ https://www.1150technologies.com/$1 [R,L]
