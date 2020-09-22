@@ -195,17 +195,17 @@
         <div class="col l8 s12 center card" style="margin: 20px 0px; padding: 20px 40px;">
           <h4 class="font-weight-600 contact-us-header">Contact Us</h4>
           <h6 class="opacity-6">Got a question? We'd love to hear from you.</h6>
-          <form>        
+          <form id="contactForm">        
             <div class="row">
               <div class="input-field col s12">
                 <input placeholder="" id="fullname" type="text" class="validate" required>
-                <label for="fullname">Full name</label>
+                <label for="fullname">Full name <span class=" red-text text-lighten-3">*</span></label>
               </div>
             </div>  
             <div class="row">  
               <div class="input-field col s12">
                 <input placeholder="" id="email" type="email" class="validate" required>
-                <label for="email">Email</label>
+                <label for="email">Email <span class=" red-text text-lighten-3">*</span></label>
               </div>
             </div>  
             <div class="row">
@@ -220,7 +220,7 @@
                 <label for="message">Message</label>
               </div>
             </div>
-            <button class="btn waves-effect waves-light btn-large blue w-100 font-weight-500" type="submit" name="action" style="font-size: 20px; margin-bottom: 21px;">Send
+            <button id="sendInquiry" class="btn waves-effect waves-light btn-large blue w-100 font-weight-500" type="submit" name="action" style="font-size: 20px; margin-bottom: 21px;">Send
               <i class="material-icons right">send</i>
             </button>
           </form>
@@ -304,6 +304,7 @@
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
+  <script src="js/sweetalert2.all.min.js"></script>
   <script src="js/init.js"></script>
 
   </body>
