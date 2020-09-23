@@ -27,7 +27,7 @@
                 if($query->execute()) {
                     return $this->response->success(['message' => 'Thank you for sending a message. We are looking into it now.']);
                 } else {
-                    return 'Error sending message. Please try again later';
+                    $this->response->error(['message' => 'Error sending message. Please try again later.']);
                 }
             } catch(Exception $e) {
                 die($e);    

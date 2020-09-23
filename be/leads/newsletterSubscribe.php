@@ -1,14 +1,16 @@
 <?php
 require_once('../config.php');
 require_once('../database.php');
+require_once('../response.php');
 
 try {
     if(isset($_POST['email'])) {
             $db = new database($pdo);
             $res = $db->newsletterSubscribe($_POST['email']);
-            echo json_encode($res);
+            echo $res;
     } else {
-        die('missing required information');
+        $response = new response();
+        $response->error(['message' => 'Missing required information']);
     }
 
 } catch(Exception $e) {
